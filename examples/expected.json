@@ -1,0 +1,16 @@
+{
+  "added_lines": 2,
+  "removed_lines": 2,
+  "numbers_removed": [
+    "5",
+    "100"
+  ],
+  "numbers_added": [
+    "3",
+    "120"
+  ],
+  "unified_diff": "--- v1\n+++ v2\n@@ -1,2 +1,2 @@\n-Delivery in 5 days.\n-Price: 100 USD.\n+Delivery in 3 days.\n+Price: 120 USD.",
+  "truncated": false,
+  "before_sha256": "d7ebb92cb408c1a73b876a62ec0fdbd4bf8ce15206d16c67a4746624859bce82",
+  "after_sha256": "251b22eec0fa36a94a3f11ec3c596901a2b97a1629de89775eec2c808b63bcb6"
+}

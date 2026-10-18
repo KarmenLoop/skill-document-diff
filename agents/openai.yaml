@@ -1,0 +1,4 @@
+interface:
+  display_name: "KarmenLoop Document Diff"
+  short_description: "Document Diff with reproducible local checks"
+  default_prompt: "Use $karmen-document-diff to compare these document versions and highlight material changes."

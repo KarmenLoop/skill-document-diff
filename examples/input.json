@@ -1,0 +1,6 @@
+{
+  "before": "Delivery in 5 days.\nPrice: 100 USD.",
+  "after": "Delivery in 3 days.\nPrice: 120 USD.",
+  "before_label": "v1",
+  "after_label": "v2"
+}
