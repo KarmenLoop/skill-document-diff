@@ -3,7 +3,7 @@ name: karmen-document-diff
 description: "Compare document revisions and surface changed numbers for review. Use when a user asks what changed between two text documents or revisions."
 metadata:
   author: KarmenLoop
-  version: "0.1.0"
+  version: "0.2.0"
 ---
 
 # Document Diff
