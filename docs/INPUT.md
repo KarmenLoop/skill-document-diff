@@ -1,6 +1,6 @@
 # Input and output
 
-Supply a UTF-8 JSON object (maximum 10 MiB). Duplicate JSON keys and non-finite JSON constants are rejected. Arrays are required unless documented as optional. IDs must be stable and unique. Dates use ISO 8601; timestamps require an explicit UTC offset.
+Supply a UTF-8 JSON object (maximum 10 MiB). Use `--input PATH` for a file or `--input -` for standard input. Run `--version` to inspect the installed helper version. Duplicate JSON keys and non-finite JSON constants are rejected. Arrays are required unless documented as optional. IDs must be stable and unique. Dates use ISO 8601; timestamps require an explicit UTC offset.
 
 | Field | Contract |
 | --- | --- |
@@ -20,6 +20,8 @@ Supply a UTF-8 JSON object (maximum 10 MiB). Duplicate JSON keys and non-finite 
 ```
 
 ## Result
+
+Line-ending changes count as changed lines. The unified diff marks a missing final newline with `\ No newline at end of file`.
 
 added_lines, removed_lines, numbers_removed, numbers_added, unified_diff, truncated, before_sha256, after_sha256.
 
