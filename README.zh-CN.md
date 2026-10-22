@@ -4,7 +4,7 @@
 
 批准一版文档之前，先看清楚改了什么。逐行差异和增删数字会同时列出，便于发现价格、期限等容易漏看的变化。
 
-[下载 v0.2.1](https://github.com/KarmenLoop/skill-document-diff/releases/tag/v0.2.1) · [完整教程](docs/tutorial.zh-CN.md) · [输入参考（英文）](docs/INPUT.md) · [反馈问题](https://github.com/KarmenLoop/skill-document-diff/issues)
+[下载 v0.2.1](https://github.com/KarmenLoop/skill-document-diff/releases/tag/v0.2.1) · [完整教程](docs/tutorial.zh-CN.md) · [输入参考](docs/input.zh-CN.md) · [反馈问题](https://github.com/KarmenLoop/skill-document-diff/issues)
 
 ## 能做什么
 
@@ -41,7 +41,7 @@ before 与 after 填写文本，可附版本标签。长文档可设置 max_diff
 
 试着比较文字相同、换行方式不同或缺少末尾换行的两个版本。保留 SHA-256 字段，明确检查的是哪份文本。
 
-准备新输入前可查看[字段约定（英文）](docs/INPUT.md)。工具只依赖 Python 标准库，本身不需要模型账号、API 密钥或网络。使用 AI 宿主时，宿主有自己的数据与权限设置。
+准备新输入前可查看[字段约定](docs/input.zh-CN.md)。工具只依赖 Python 标准库，本身不需要模型账号、API 密钥或网络。使用 AI 宿主时，宿主有自己的数据与权限设置。
 
 ## 常见问题
 
@@ -52,7 +52,7 @@ before 与 after 填写文本，可附版本标签。长文档可设置 max_diff
 ## 文档与支持
 
 - [下载、安装、配置、练习、升级与卸载](docs/tutorial.zh-CN.md)
-- [输入输出约定](docs/INPUT.md)与[兼容性说明](docs/COMPATIBILITY.md)（英文参考）
+- [输入输出约定](docs/input.zh-CN.md)与[兼容性说明](docs/COMPATIBILITY.md)（英文参考）
 - [更新记录](CHANGELOG.md)、[参与贡献](CONTRIBUTING.md)、[支持](SUPPORT.md)和[安全反馈](SECURITY.md)
 
 ## 许可证
