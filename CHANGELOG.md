@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.2.1 — 2026-10-23
+
+- Add English and Simplified Chinese setup and practice guides with versioned sample output.
+- Include both README languages in installed copies and add reproducible release packaging.
+- Publish the current helper behavior with matching download metadata; preserve earlier releases.
+
+
 ## 0.2.0 - 2026-10-20
 
 - Detect final-newline and CRLF changes instead of reporting identical text.
